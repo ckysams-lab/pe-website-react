@@ -1,4 +1,4 @@
-// postcss.config.js (最標準、最穩定的版本)
+// postcss.config.js (最終確認的標準版本)
 export default {
   plugins: {
     tailwindcss: {},
