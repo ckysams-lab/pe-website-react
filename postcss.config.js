@@ -1,11 +1,7 @@
-// postcss.config.js (最終正確版本)
-
-import tailwindcss from 'tailwindcss';
-import autoprefixer from 'autoprefixer';
-
+// postcss.config.js (最標準、最穩定的版本)
 export default {
-  plugins: [
-    tailwindcss,
-    autoprefixer,
-  ],
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
 };
